@@ -4,15 +4,17 @@
 <title>sample</title>
 </head>
 <body>
-<form action="regist.php" method="post">
-  名前：<br />
-  <input type="text" name="name" size="30" value="" /><br />
-  メールアドレス：<br />
-  <input type="text" name="mail" size="30" value="" /><br />
+<form action="" method="post">
   コメント：<br />
   <textarea name="comment" cols="30" rows="5"></textarea><br />
   <br />
   <input type="submit" value="登録する" />
 </form>
+<?php
+
+echo $_POST["comment"];
+
+
+?>
 </body>
 </html>
